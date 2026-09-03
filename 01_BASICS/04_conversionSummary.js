@@ -28,6 +28,26 @@ const myfunc=function(){
     console.log("Hello World");
 }
 
-console.log(typeof bignumber)
-console.log(typeof heros)
-console.log(typeof obj)
+//console.log(typeof bignumber)
+//console.log(typeof heros)
+//console.log(typeof obj)
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack(Primitive), Heap(Non-Primitive)
+
+let youtubeName="amandotcom"
+let anoname=youtubeName
+anoname="aman.com"
+console.log(youtubeName)
+console.log(anoname)
+
+let userOne={
+    email:"aman.com",
+    upi:"aman.ybl",
+}
+let userTwo=userOne
+
+userTwo.email="ak.com"
+console.log(userOne.email)
+console.log(userTwo.email)
